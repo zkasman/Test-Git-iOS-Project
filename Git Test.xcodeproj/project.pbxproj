@@ -21,6 +21,7 @@
 		8306984018AF6C08007566AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8306982218AF6C08007566AE /* UIKit.framework */; };
 		8306984818AF6C08007566AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8306984618AF6C08007566AE /* InfoPlist.strings */; };
 		8306984A18AF6C08007566AE /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8306984918AF6C08007566AE /* Git_TestTests.m */; };
+		8306985518AF6F68007566AE /* CCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8306985418AF6F68007566AE /* CCTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8306984518AF6C08007566AE /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		8306984718AF6C08007566AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8306984918AF6C08007566AE /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		8306985318AF6F68007566AE /* CCTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTestViewController.h; sourceTree = "<group>"; };
+		8306985418AF6F68007566AE /* CCTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		8306981218AF6C07007566AE = {
 			isa = PBXGroup;
 			children = (
+				8306985318AF6F68007566AE /* CCTestViewController.h */,
+				8306985418AF6F68007566AE /* CCTestViewController.m */,
 				8306982418AF6C08007566AE /* Git Test */,
 				8306984318AF6C08007566AE /* Git TestTests */,
 				8306981D18AF6C08007566AE /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				8306982F18AF6C08007566AE /* CCAppDelegate.m in Sources */,
 				8306982B18AF6C08007566AE /* main.m in Sources */,
+				8306985518AF6F68007566AE /* CCTestViewController.m in Sources */,
 				8306983518AF6C08007566AE /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
